@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>lardota2</name>
+    </assembly>
+    <members>
+        <member name="M:BackendApi.Controllers.UserController.GetAll">
+             <summary>
+             Поиск
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             POST /Todo
+             {
+             id:"251"
+             }
+            
+             </remarks>
+             <param name="model">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.GetById(System.Int32)">
+             <summary>
+             Поиск по ID
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             POST /Todo
+             {
+             id:"222"
+             }
+            
+             </remarks>
+             <param name="model">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.Add(Domain.Models.User)">
+             <summary>
+             Создание пользователя
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             POST /Todo
+             {
+             "userid" : "21",
+             "login1": "adsa",
+             "password1": "adaaaaa",
+             "role1": "user",
+             </remarks>
+             <param name="model">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.Update(Domain.Models.User)">
+             <summary>
+             Обновление пользователя
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             POST /Todo
+             {
+             "userid" : "21",
+             "login1": "adsa",
+             "password1": "adaaaaa",
+             "role1": "user",
+             </remarks>
+             <param name="model">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.Delete(System.Int32)">
+             <summary>
+             Удаление 
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             POST /Todo
+             {
+             id:"11"
+             }
+             </remarks>
+             <param name="model">Пользователь</param>
+             <returns></returns>
+        </member>
+    </members>
+</doc>
